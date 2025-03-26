@@ -1,0 +1,19 @@
+[project]
+name = "gurobi-process-optimization"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "feature-engine>=1.8.3",
+    "gurobipy>=12.0.1",
+    "ipykernel>=6.29.5",
+    "pandas>=2.2.3",
+    "python-dotenv>=1.1.0",
+    "scikit-learn>=1.5.2",
+    "skimpy>=0.0.15",
+    "snowflake>=1.1.0",
+    "snowflake-ml-python>=1.8.0",
+    "snowflake-snowpark-python[pandas]>=1.29.1",
+    "ydata-profiling>=4.16.0",
+]

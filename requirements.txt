@@ -1,0 +1,11 @@
+ipykernel
+pandas
+python-dotenv
+scikit-learn>=1.5.2
+skimpy
+snowflake
+snowflake-ml-python
+snowflake-snowpark-python[pandas]
+ydata-profiling
+feature-engine
+gurobipy
