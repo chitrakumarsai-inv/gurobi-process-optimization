@@ -87,7 +87,7 @@ session.sproc.register(
     language="python",
     runtime_version="3.10",
     packages=["numpy", "pandas", "snowflake-snowpark-python"],
-    artifact_repository="your_repository_path",  # Update with your actual Snowflake repo
+    artifact_repository= snowflake.snowpark.pypi_shared_repository,  # Update with your actual Snowflake repo
     artifact_repository_packages=["gurobipy"]  # ✅ Explicitly add gurobipy
 )
 
